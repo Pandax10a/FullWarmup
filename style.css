@@ -112,12 +112,10 @@ footer p {
   #off2 {
     display: grid;
     grid-template-columns: auto auto;
-    
     transform: translateX(300px);
     align-self: end;
-    column-gap: 90px;
-   
-    
+    -moz-column-gap: 90px;
+         column-gap: 90px;
   }
 
   #div1 {

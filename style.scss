@@ -103,11 +103,18 @@ footer p {
 
     #off1 {
         display: none;
-    }
-    #off2 {
+      }
+    
+      #off2 {
         display: grid;
-        grid-template-columns: repeat(2,1fr);
-    }
+        grid-template-columns: auto auto;
+        
+        transform: translateX(300px);
+        align-self: end;
+        column-gap: 90px;
+       
+        
+      }
 
     #div1 {
         row-gap: 50px;
