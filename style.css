@@ -91,7 +91,7 @@ footer p {
 
   body {
     display: grid;
-    grid-template-rows: auto auto auto;
+    grid-template-rows: 20vh auto 20vh;
     place-items: center;
   }
 
